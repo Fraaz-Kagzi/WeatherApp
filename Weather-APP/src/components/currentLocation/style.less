@@ -1,0 +1,69 @@
+@import '~style/helpers';
+
+.container { 
+	display: flex;
+	flex-direction: column;
+	background-image: url('../../assets/backgrounds/shard.jpg');
+	background-position: center;
+	background-size: auto 100%;
+	color: #fff;
+	width: 390px;
+	height: 844px;
+	text-align: center;
+	padding-top: 80px;
+	margin: 0 auto;
+	position: relative;
+}
+.weeklyForecast {
+	margin-top: 1rem;
+	background: @background;
+	width: 90%;
+	height: auto;
+	border-radius: 10px;
+	color: white;
+	margin: 1rem auto;
+	padding: 10px 3rem 10px;
+	text-align: left;
+	line-height: 30px;
+}
+.midSec{
+	overflow: scroll;
+	margin-bottom: 40px;
+}
+.smallInfo {
+	text-transform: capitalize;
+}
+.optButton{
+	background: @background;
+	width: 90%;
+	padding:0.25rem;
+	color: #e8e8e8;
+	margin: 10px auto;
+	margin-bottom: 30px;
+	backdrop-filter: blur(5px);
+	border: 0px;
+	text-align: center;
+}
+.showFlightInfo {
+	margin-bottom: 30px;
+}
+.navbar {
+	position:absolute;
+	bottom: 0;
+	backdrop-filter: blur(5px);
+	background: @background;
+	text-align: center;
+	display: flex;
+    padding: 1% 44%;
+    justify-content: space-between;
+    align-items: center;
+	width: 100%;
+}
+.navbar button{
+	border: 0;
+	cursor: pointer;
+	background-color: transparent;
+}
+.home {
+	background-color: transparent;
+}

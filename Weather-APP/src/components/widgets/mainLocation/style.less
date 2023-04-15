@@ -1,0 +1,117 @@
+@import '~style/helpers';
+
+.container{
+	background: @background;
+	width: 90%;
+	height: auto;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 1em;
+	color: #e8e8e8;
+	backdrop-filter: blur(5px);
+	padding-block: 2rem;
+}
+
+.container2 {
+	background: @background;
+	width: 90%;
+	height: auto;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 1em;
+	color: #e8e8e8;
+	backdrop-filter: blur(5px);
+	padding-block: 2rem;
+}
+
+.currentLoc{
+	font-size: 1rem;
+	font-weight: 800;
+	text-align: center;
+}
+
+.city {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.info{
+	display: flex;
+	flex-direction: row;
+}
+
+.icons{
+	width: 8em;
+	height: 8em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	vertical-align: center;
+	flex:auto;
+}
+
+.temperature {
+	flex:auto;
+	font-size: 6em;
+	font-weight: 600;
+}
+
+.filled:after {
+	content: "°";
+	margin: 0 0 0 1rem;
+	font-size: 0.5em;
+	font-weight: 100;
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: top;
+}
+
+.subtemps, .conditions{
+	text-align: left;
+	padding-left: 2rem;
+}
+
+//icons for weather locations
+#cloud {
+	width: inherit;
+	height: inherit;
+	background-repeat: inherit;
+	background-size: inherit;
+	background-image: url("../../../assets/icons/weather-icons/cloud.png");
+	
+}
+
+#clear {
+	width: inherit;
+	height: inherit;
+	background-repeat: inherit;
+	background-size: inherit;
+	background-image: url("../../../assets/icons/weather-icons/clear.png");
+	
+}
+
+#drizzle {
+	width: inherit;
+	height: inherit;
+	background-repeat: inherit;
+	background-size: inherit;
+	background-image: url("../../../assets/icons/weather-icons/drizzle.png");
+	
+}
+
+#rain {
+	width: inherit;
+	height: inherit;
+	background-repeat: inherit;
+	background-size: inherit;
+	background-image: url("../../../assets/icons/weather-icons/rain.png");
+	
+}
+
+#haze {
+	width: inherit;
+	height: inherit;
+	background-repeat: inherit;
+	background-image: url("../../../assets/icons/weather-icons/haze.png");
+	
+}

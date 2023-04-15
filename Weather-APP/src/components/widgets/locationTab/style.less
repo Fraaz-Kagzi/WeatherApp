@@ -1,0 +1,110 @@
+@import '~style/helpers';
+
+.container {
+	background: @background;
+	width: 90%;
+	border-radius: 10px;
+	color: #e8e8e8;
+	margin: 10px auto;
+	display: flex;
+	position: relative;
+	backdrop-filter: blur(5px);
+}
+//change text colour on click -> link is used to go to that locations page
+a{
+	color: #e8e8e8;
+	text-decoration: none;
+}
+
+.left {
+	float: left;
+	text-align: left;
+	padding: 10px 20px 10px;
+}
+.right {
+	
+	float: right;
+	text-align: center;
+}
+.city {
+	flex: 1;
+	font-size: 1.5em;
+	font-weight: 400;
+	line-height: 40px;
+}
+.subTemp {
+	flex: 1;
+}
+
+.temperature {
+	top: -10px;
+}
+
+.button{
+	background:none;
+	border: none;
+	cursor: pointer;
+	size: auto;
+	position: absolute;
+	top: 0.25rem;
+	right: 0.25rem;
+}
+
+.button:hover{
+	color: rgb(255, 0, 0);
+}
+
+//icons for weather locations
+.icons {
+	width: 7rem;
+	height: 7rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+	padding-left: 3rem;
+}
+
+#cloud {
+	width: inherit;
+	height: inherit;
+	background-repeat: inherit;
+	background-size: inherit;
+	background-image: url("../../../assets/icons/small-weather-icons/cloud.png");
+	
+}
+
+#clear {
+	width: inherit;
+	height: inherit;
+	background-repeat: inherit;
+	background-size: inherit;
+	background-image: url("../../../assets/icons/small-weather-icons/clear.png");
+	
+}
+
+#drizzle {
+	width: inherit;
+	height: inherit;
+	background-repeat: inherit;
+	background-size: inherit;
+	background-image: url("../../../assets/icons/small-weather-icons/drizzle.png");
+	
+}
+
+#rain {
+	width: inherit;
+	height: inherit;
+	background-repeat: inherit;
+	background-size: inherit;
+	background-image: url("../../../assets/icons/small-weather-icons/rain.png");
+	
+}
+
+#haze {
+	width: inherit;
+	height: inherit;
+	background-repeat: inherit;
+	background-size: inherit;
+	background-image: url("../../../assets/icons/weather-icons/haze.png");
+	
+}
